@@ -4,7 +4,7 @@
 .navbar-brand {
     font-family: 'Times New Roman', Times, serif;
     font-size: 45px;
-    color: green;
+    color: red;
     font-weight: 500px;
 }
 
@@ -17,7 +17,7 @@
 }
 
 .btn-brand {
-    background-color: green;
+    background-color: blueviolet;
     color: #FFF;
 
 }
@@ -37,7 +37,7 @@
 }
 
 #banner {
-    background: url('loft-home-office-interior-design.jpg');
+    background: url('hhhh.jpg');
     height: 90vh;
     background-size: cover;
     background-repeat: no-repeat;
@@ -48,11 +48,39 @@
  h1{
     font-family: 'Times New Roman', Times, serif;
     font-size: 75px;
-    color: chocolate;
+    color: blue;
 
  }
 
  #banner p {
     font-size: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+ }
+ .card-img-top {
+    width: 35%;
+ }
+ .card {
+    padding: 25px 20px;
+    border: 2px solid rgb(red, green, blue);
+    transition: all ease-in .4s;
+ }
+ .card:hover{
+    box-shadow: 0 0 45px 0 rgb(red, green, blue);
+    transform: scale(1.1);
+    background-color: gray;
+ }
+ .card:hover .card-title,
+ .card:hover .card-text {
+    color: #304438;
+ }
+
+ section {
+    padding: 100px 0;
+ }
+ #sugpon
+ h2{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 65px;
+    color: red;
+    margin-bottom: 30px;
  }
